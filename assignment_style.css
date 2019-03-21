@@ -96,15 +96,21 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 190px 190px 190px;
+    grid-template-rows: 190px 190px 190px;
+    margin-left: 150px;
 
-    /* grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3; */
-    margin-top: 400px;
+    margin-top: 100px;
   }
+
+.skills_title {
+    display:flex;
+    height: 200px;
+    width: 200px;
+    background-color: #1f2833;
+    margin-top: 135px;
+    margin-left: 163px;
+}
 
 .grid-item-1 {
     grid-row: 1/2;
