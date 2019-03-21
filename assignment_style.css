@@ -30,6 +30,10 @@
     position: fixed;
 }
 
+.dropdown {
+    display: none;
+}
+
 .task-bar {
     justify-self: space-between;
     align-self: space-between;
@@ -186,7 +190,37 @@ p {
         height: 100px;
         padding: 10px
     }
+
+    .task-bar {
+        display: none;
+    }
+
+    .task-bar a {
+        margin-right: 40px;
+        padding: 0px 5px;
+        font-family: 'Quando', serif;;
+        font-size: 8px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
   }
+
 
   /* display: flex;
   height: 100px;
