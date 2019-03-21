@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+/* .primary-text {
+    color:#45A29E
+} */
+
+.background {
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-header {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    margin: 3px #1f2833 border;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    background: #1F2833;
+    color: #45A29E;
+    padding-left: 30px;
+    position: fixed;
+}
+
+.task-bar {
+    justify-self: space-between;
+    align-self: space-between;
+    margin-top: 27px;
+    margin-right: 20px;
+}
+
+.task-bar a {
+    float: left;
+    display: block;
+    color: #45A29E;
+    text-align: space-between;
+    margin-right: 40px;
+    padding: 0px 5px;
+    font-family: 'Quando', serif;;
+    font-size: 13px;
+}
+
+.animation {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1400px;
+    margin-right: 750px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    justify-self: space-between;
+    align-self: flex-start;
+}
+
+.about_title {
+    display:flex;
+    height: 200px;
+    width: 200px;
+    margin-top: 135px;
+    margin-right: 578px;
+}
+
+.about_me {
+    display:flex;
+    height: 980px;
+    width: 800px;
+    margin-bottom: 110px;
+    margin-left: 20px;
+    padding: 25px;
+    background: #1f2833;
+    border: 3px #66fcf1 solid;
+}
+
+.life_box {
+    display:flex;
+    height: 1550px;
+    width: 800px;
+    margin-bottom: 135px;
+    margin-left: 20px;
+    padding: 25px;
+    background: #1f2833;
+    border: 3px #66fcf1 solid;
+    justify-self: space-around
+}
+
+/* .glassplains_box {
+    display:flex;
+    height: 1550px;
+    width: 800px;
+    margin-bottom: 275px;
+    margin-left: 20px;
+    padding: 25px;
+    background: #1f2833;
+    border: 3px #66fcf1 solid;
+} */
+
+.email_input {
+    display:flex;
+    /* border: 1px red solid */
+    margin-top: 150px
+}
+/* 
+h2 {
+    border-bottom: 1px solid#66FCF1;
+    margin-bottom: 8px;
+} */
+
+p {
+    padding-right: 5px;
+}
+
+#life {
+    padding-right: 20px
+}
+
+#facebook-logo {
+    margin-left: 100px;
+}
