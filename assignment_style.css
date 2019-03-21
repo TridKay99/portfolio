@@ -174,8 +174,11 @@
     margin-top: 135px;
     margin-right: 578px;
 }
+.contact-grid {
+    color: #66fcf1;
+}
 
-p {
+.p {
     padding-right: 5px;
 }
 
