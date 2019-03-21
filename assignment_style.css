@@ -98,6 +98,10 @@
     justify-self: space-around
 }
 
+.life_box_query {
+    display: none;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 190px 190px 190px;
@@ -280,6 +284,20 @@
         background: #1f2833;
         border: 2px #66fcf1 solid;
     }
-  }
+
+    /* PROJECTS PAGE MEDIA QUERY */
+    .life_box {
+        display:flex;
+        height: 1550px;
+        width: 300px;
+        margin-bottom: 135px;
+        margin-left: 20px;
+        padding: 25px;
+        background: #1f2833;
+        border: 3px #66fcf1 solid;
+        justify-self: space-around;
+        font-size: 14px;
+    }
+}
 
 
