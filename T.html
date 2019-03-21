@@ -3,16 +3,27 @@
 <head>
     <link rel="stylesheet" href="T.css">
     <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
-
-    <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-            <a href="index.html" style="font-family: 'Quando'">home</a></a>
-            <a href="about_me_portfolio.html" style="font-family: 'Quando'">about me</a>
-            <a href="projects_portfolio.html" style="font-family: 'Quando'">projects</a>
-            <a href="skills_portfolio.html" style="font-family: 'Quando'">skills</a>
-            <a href="contact_me_portfolio.html" style="font-family: 'Quando'">contact me</a>
-        </div>
+    <link href="https://fonts.googleapis.com/css?family=Rhodium+Libre" rel="stylesheet">
+    <div class="container">
+        <form action="https://formspree.io/tridkay90@gmail.com" method="POST"">
+        
+            <label for="fname" style="font-family: 'Quando', serif;color:#66FCF1">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname" style="font-family: 'Quando', serif;color:#66FCF1">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country" style="font-family: 'Quando', serif;color:#66FCF1">Country</label>
+            <select id="country" name="country">
+            <option value="australia">Australia</option>
+            </select>
+        
+            <label for="subject" style="font-family: 'Quando', serif;color:#66FCF1">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+        </form>
     </div>
 </head>
 </html>

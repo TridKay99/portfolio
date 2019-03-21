@@ -31,18 +31,25 @@
                 </div>
             </header>
             <!--CONTENT-->
-            <div class="contact_title">
-                    <h2 id="h2_project" style="font-family: 'Rhodium Libre', serif;color:#66FCF1">Contact me!</h2>
-            </div>
-
-            <div class="email_input">
-                <form action="https://formspree.io/tridkay90@gmail.com" method="POST">
-                    <div class="contact-grid">
-                        <div class="contact-grid-1"><input type="text" name="name"><p>Type Name ^</p></div>
-                        <div class="contact-grid-2"><input type="email" name="_replyto"><p>Type Email ^</p></div>
-                        <div class="contact-grid-3"><textarea name="message" rows="4" cols="50" >Send a message!</textarea> </div>
-                        <div class="contact-grid-4"><input type="submit" value="Send"></div>
-                     </div>
+            <div class="contact-container">
+                <form action="https://formspree.io/tridkay90@gmail.com" method="POST"">
+                
+                    <label for="fname" style="font-family: 'Quando', serif;color:#66FCF1">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname" style="font-family: 'Quando', serif;color:#66FCF1">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country" style="font-family: 'Quando', serif;color:#66FCF1">Country</label>
+                    <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    </select>
+                
+                    <label for="subject" style="font-family: 'Quando', serif;color:#66FCF1">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
                 </form>
             </div>
             <!--FOOTER-->
