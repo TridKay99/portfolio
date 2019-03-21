@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-/* .primary-text {
-    color:#45A29E
-} */
-
 .background {
     display:flex;
     height: 100vh;
@@ -56,7 +52,7 @@
     display: flex;
     height: 100px;
     width: 100px;
-    margin-bottom: 1400px;
+    margin-bottom: 2000px;
     margin-right: 750px;
 }
 
@@ -84,6 +80,10 @@
     padding: 25px;
     background: #1f2833;
     border: 3px #66fcf1 solid;
+}
+
+.about_me_query {
+    display: none;
 }
 
 .life_box {
@@ -190,6 +190,8 @@
     margin-left: 100px;
 }
 
+
+/*MEDIA QUERY HOME PAGE*/
 @media only screen and (max-width: 650px) {
     .main-header {
         width: 100vw;
@@ -252,6 +254,31 @@
         width: 80px;
         margin-bottom: 1400px;
         margin-right: 780px;
+    }
+
+    /*MEDIA QUERY ABOUT ME*/
+    .about_title {
+        display:flex;
+        height: 200px;
+        width: 200px;
+        margin-top: 135px;
+        margin-right: 200px;
+    }
+
+    .about_me {
+        display: none;
+    }
+
+    .about_me_query {
+        display: block;
+        overflow: scroll;
+        height: 1000px;
+        width: 400px;
+        margin-bottom: 150px;
+        margin-left: 20px;
+        padding: 25px;
+        background: #1f2833;
+        border: 2px #66fcf1 solid;
     }
   }
 
