@@ -182,6 +182,10 @@
     justify-self: space-between;
     align-self: flex-start;
 }
+
+.contact_media_footer{
+    display: none;
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -294,7 +298,7 @@ input[type=text], select, textarea {
         margin-right: 780px;
     }
 
-    /*MEDIA QUERY ABOUT ME*/
+    /*MEDIA QUERY IPHONE*/
     .about_title {
         display:flex;
         height: 200px;
@@ -343,10 +347,12 @@ input[type=text], select, textarea {
       }
     
     .contact_footer {
-        bottom: 0px;
-        justify-self: space-between;
-        align-self: flex-end;
+        display: none;
+    }
+
+    .contact_media_footer {
+        display: block;
+        margin-top: 20px;
+        align-self:flex-end;
     }
 }
-
-
