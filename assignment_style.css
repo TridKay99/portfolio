@@ -175,6 +175,13 @@
     margin-top: 135px;
     margin-right: 578px;
 }
+
+.contact_footer {
+    position: fixed;
+    bottom: 0px;
+    justify-self: space-between;
+    align-self: flex-start;
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -334,6 +341,12 @@ input[type=text], select, textarea {
     
         margin-top: 100px;
       }
+    
+    .contact_footer {
+        bottom: 0px;
+        justify-self: space-between;
+        align-self: flex-end;
+    }
 }
 
 
