@@ -113,11 +113,8 @@
 
 .skills_title {
     display:flex;
-    height: 200px;
-    width: 200px;
-    background-color: #1f2833;
     margin-top: 135px;
-    margin-left: 163px;
+    margin-left: px;
 }
 
 .grid-item-1 {
@@ -203,7 +200,6 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45A29E;
   }
-  
  
   .contact-container {
     border-radius: 5px;
@@ -329,6 +325,15 @@ input[type=text], select, textarea {
         justify-self: space-around;
         font-size: 14px;
     }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 130px 130px 130px;
+        grid-template-rows: 130px 130px 130px;
+        margin-left: 50px;
+    
+        margin-top: 100px;
+      }
 }
 
 
